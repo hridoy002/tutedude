@@ -1,0 +1,29 @@
+.container{
+    margin:0 70px;
+    margin-top: 25px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.menu a{
+    padding-right: 30px;
+    text-decoration: none;
+    color: #80008040;
+    font-size: 18px;
+}
+
+.profile a{
+    text-decoration: none;
+    color: #800080;
+    padding: 0 6px 0 10px;
+    align-items: center;
+}
+
+.profile_icon{
+    width: 15px;
+    padding-right: 6px;
+}

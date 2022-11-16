@@ -1,0 +1,40 @@
+.friends {
+    margin: 0 10%;
+}
+
+.friends a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.reffer_ac {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ref {
+    color: #800080;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.code {
+    border: 2px solid #efefef;
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.wallet {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(128, 0, 128, 0.15);
+    border-radius: 20px;
+    width: 145px;
+    height: 85px;
+}
+
+.wallet p{
+    text-align: center;
+}
