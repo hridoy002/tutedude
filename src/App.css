@@ -1,0 +1,11 @@
+.route{
+    margin: 0 10%;
+    display: block;
+}
+
+.route  a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    
+}

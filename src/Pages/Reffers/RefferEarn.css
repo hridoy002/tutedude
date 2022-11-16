@@ -1,0 +1,27 @@
+.reffer_earn{
+    margin: 0 10%;
+}
+
+.refferal_card{
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(128, 0, 128, 0.15);
+    border-radius: 20px;
+    width: 486px;
+    height: 188px;
+}
+.refferal_acc {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.withdraw{
+    background: #800080;
+    border-radius: 20px;
+    padding: 8px 16px;
+    outline: none;
+    border: none;
+    color: white;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}

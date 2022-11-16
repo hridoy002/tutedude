@@ -2,11 +2,6 @@
     margin: 0 10%;
 }
 
-.friends a {
-    text-decoration: none;
-    color: black;
-    font-size: 14px;
-}
 
 .reffer_ac {
     display: flex;
