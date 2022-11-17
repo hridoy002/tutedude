@@ -24,6 +24,27 @@
 }
 
 .profile_icon{
-    width: 15px;
+    width: 16px;
     padding-right: 6px;
+}
+
+@media (max-width:768px) {
+    .container{
+        margin: 59px 10px;
+    }
+    .assign,.chat{
+        display: none;
+    }
+    .profile{
+        background-color: #800080;
+        display: block;
+        padding: 12px 25px;
+        border-radius: 10px;
+    }
+    .profile a{
+        color: white;
+    }
+    .profile_icon{
+        display: none;
+    }
 }

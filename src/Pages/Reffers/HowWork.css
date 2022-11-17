@@ -1,0 +1,28 @@
+.how_work{
+    display: flex;
+    align-items: center;
+}
+
+.img{
+    background-color: #D9D9D940;
+    height: 65px;
+    width: 65px;
+    border-radius: 100%;
+    margin-right: 20px;
+    position: relative;
+}
+.how_work img{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 25px;
+}
+
+.work_title h6{
+    font-size: 16px;
+    margin: 0;
+}
+.work_title p{
+    margin-top: 5px;
+    /* line-height: 1; */
+    font-size: 16px;
+}

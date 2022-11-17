@@ -1,27 +1,174 @@
-.reffer_earn{
+.reffer_earn {
     margin: 0 10%;
 }
 
-.refferal_card{
+.refferal_sec {
+    display: flex;
+}
+
+.refferal_card {
     background: #FFFFFF;
     box-shadow: 0px 2px 8px rgba(128, 0, 128, 0.15);
     border-radius: 20px;
     width: 486px;
     height: 188px;
 }
+
 .refferal_acc {
     display: flex;
     justify-content: space-evenly;
 }
 
-.withdraw{
+.refferal_acc h6{
+    color:#800080;
+    font-size: 14px;
+    margin: 15px 0;
+}
+.refferal_acc p{
+    margin: 20px 0;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.withdraw1{
+    display: none;
+}
+.withdraw1 button{
     background: #800080;
     border-radius: 20px;
-    padding: 8px 16px;
+    padding: 10px 18px;
     outline: none;
     border: none;
     color: white;
     display: block;
     margin: 0 auto;
+    margin-top: 10px;
+}
+.withdraw2 button{
+    background: #800080;
+    border-radius: 20px;
+    padding: 10px 18px;
+    outline: none;
+    border: none;
+    color: white;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.refferal_code {
+    margin-left: 30%;
+}
+
+.refferal_code h2 {
+    color: #800080;
+}
+
+.refferal_code p {
+    letter-spacing: 5px;
+    position: relative;
+    font-size: 20px;
+    padding: 8px 12px;
+    color: #800080;
+    border: 1px solid;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #fff;
+    background: linear-gradient(white, white) padding-box,linear-gradient(to right, orange, purple) border-box;
+    border: 2px solid transparent;
+}
+
+.works{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+
+.terms{
     margin-top: 20px;
+}
+
+.terms p{
+    cursor: pointer;
+    color: #800080;
+    font-weight: 500;
+}
+
+/*-------------laptop L--------------- */
+@media (max-width:1366px){
+    .refferal_code {
+        margin-left: 10%;
+    }
+}
+
+/*----------------phone --------------*/
+@media (max-width:768px){
+    .reffer_earn{
+        margin: 0 5%;
+    }
+    .refferal_sec{
+        display: block;
+        /* flex-direction: column; */
+    }
+    .refferal_card {
+        background: #FFFFFF;
+        box-shadow: 0px 2px 8px rgba(128, 0, 128, 0.15);
+        border-radius: 20px;
+        width: 350px;
+        height: 188px;
+        padding: 10px;
+        margin-bottom: 30px;
+    }
+    .refferal_acc{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    
+    .refferal_acc h6{
+        color:#800080;
+        font-size: 14px;
+        margin: 0px 0;
+    }
+    .refferal_acc p{
+        margin: 20px 0;
+        font-size: 32px;
+        font-weight: 500;
+    }
+    .withdraw1{
+        display: block;
+    }
+    .withdraw1 button{
+        background: #800080;
+        border-radius: 20px;
+        padding: 10px 18px;
+        outline: none;
+        border: none;
+        color: white;
+        margin: 0 auto;
+        margin:20px 0 0 0;
+    }
+    .withdraw2{
+        display: none;
+    }
+    .withdraw2 button{
+        display: none;
+        background: #800080;
+        border-radius: 20px;
+        padding: 10px 18px;
+        outline: none;
+        border: none;
+        color: white;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    .refferal_code {
+        margin-left: 0;
+        width: 100%;
+    }
+    .works{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 10px;
+    }
 }

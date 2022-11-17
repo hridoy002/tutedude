@@ -1,10 +1,12 @@
 import React from 'react';
 import EnrolledCard from './EnrolledCard';
 import './Friends.css';
+import {FiArrowLeft} from 'react-icons/fi'
 
-const Friends = () => {
+const Friends = ({setPage}) => {
     return (
         <div className='friends'>
+            <button onClick={()=>setPage('second')} className='go'><FiArrowLeft style={{fontSize:'20px'}}/> Go Back</button>
             <div className='reffer_ac'>
                 <div >
                     <p className='ref'>Your Refferal Code</p>
@@ -16,6 +18,8 @@ const Friends = () => {
                 </div>
             </div>
             <EnrolledCard />
+            
+            <p style={{color:'#800080',fontSize:'16px',fontWeight:'500px',textDecoration:'none'}}>Terms & Conditons</p>
         </div>
     );
 };

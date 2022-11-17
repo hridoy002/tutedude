@@ -66,7 +66,6 @@ const EnrolledCard = () => {
                 
             </div>
 
-            <p><a href=""  style={{color:'#800080',fontSize:'16px',fontWeight:'500px'}}>Terms & Conditons</a></p>
         </div>
     );
 };
